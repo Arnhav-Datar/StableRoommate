@@ -1,9 +1,13 @@
-# StableRoommate
+# Stable Roommate
 This repository contains C++ codes for various functionalities related to the stable roommate problem
+
+## Requirements
+g++ Compiler for C++.
+
 ## Solver
 - Using the solver compile the solver with the command
 
-         g++ Stable_Roommate_solver.cpp
+         g++ Stable_Roommate_solver.cpp -std=c++11
 - To execute the solver use the command
 
         ./a.out <name_of_input_file>.txt <name_of_output_file>.txt
@@ -14,7 +18,7 @@ This repository contains C++ codes for various functionalities related to the st
 - Given a preference list and a solution the code check if the solution is indeed a valid solution
 - Using the solver compile the solver with the command
 
-         g++ Stable_Roommate_checker.cpp
+         g++ Stable_Roommate_checker.cpp -std=c++11
 - To execute the solver use the command
 
         ./a.out <name_of_preference_list_file>.txt <name_of_matching_file>.txt
