@@ -25,7 +25,7 @@ g++ Compiler for C++.
         
 ## Test Generators
 Its a sequence of codes which generate different kinds of input:-
-- An input which guarantees O(n^2) time for phase 1
-- An input which guarantees O(n^2) time for phase 2
+- An input which guarantees O(n<sup>2</sup>) time for phase 1
+- An input which guarantees O(n<sup>2</sup>) time for phase 2
 - A random input with complete preference lists
 - A random input with incomplete preference lists
