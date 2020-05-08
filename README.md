@@ -1,5 +1,6 @@
 # Stable Roommate
-This repository contains C++ codes for various functionalities related to the stable roommate problem
+This repository contains C++ codes for various functionalities related to the stable roommate problem.
+This Project was co-authored by https://github.com/raghuraman2000.
 
 ## Requirements
 g++ Compiler for C++.
