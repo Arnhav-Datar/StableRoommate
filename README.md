@@ -30,3 +30,9 @@ Its a sequence of codes which generate different kinds of input:-
 - An input which guarantees O(n<sup>2</sup>) time for phase 2
 - A random input with complete preference lists
 - A random input with incomplete preference lists
+
+## Time Complexity Analysis
+A time complexity analysis was done with the random complete input set. Let N be the input set size. The y-axis denotes the $N^2logN$ and the x-axis denotes the time taken by the algorithm by a randomly generated input. The choice of the y-axis was based on the expected complexity as can be seen in the figure a complexity of $N^2logN$ is accomplished as the plot is linear with time.
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arnhav-Datar/StableRoommate/blob/master/stable.jpeg">
+</p>
